@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: vazir;
+    src: url("assets/fonts/Vazir.ttf");
+}
+
+@font-face {
+    font-family: iransans;
+    src: url("assets/fonts/IRANSans.woff2");
+}

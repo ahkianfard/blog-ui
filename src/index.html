@@ -87,145 +87,96 @@
             </div>
             <div class="flex order-1 lg:order-2 mb-12 lg:mt-0 lg:col-span-5 lg:flex ">
                 <img src="assets/img/profile.jpg"
-                    class=" rounded-full w-48 lg:w-4/6 h-48 lg:h-auto mx-auto max-sm:hover:w-64 max-sm:hover:h-64 border-gray-900 dark:border-white border-4 animate-pulse hover:animate-none transition-all">
+                    class="mx-auto rounded-full w-48 h-48 lg:w-4/6 lg:h-auto max-lg:hover:w-64 max-lg:hover:h-64 border-gray-900 dark:border-white border-4 transition-all">
             </div>
         </div>
     </section>
 
     <main>
-        <!--tags-->
-        <div class="max-w-screen-xl flex flex-col items-center mx-auto p-4">
-            <h2 class="mb-12 text-xl font-extrabold  leading-none md:text-2xl font-vazir dark:text-white">
-                دسته بندی مطالب</h2>
 
-            <div class="inline-flex rounded-md mb-8 md:mb-0" role="group">
-                <button type="button"
-                    class="lg:px-8 lg:py-4 px-6 py-3 text-base lg:text-lg font-normal text-gray-900 bg-transparent border-2 border-gray-900 rounded-s-lg hover:bg-red-700 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500  dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-red-700">
-                    پست
-                </button>
-                <button type="button"
-                    class="lg:px-8 lg:py-4 px-6 py-3 text-base lg:text-lg font-normal text-gray-900 bg-transparent border-t-2 border-l-2 border-b-2 border-gray-900 hover:bg-yellow-500 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500  dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-yellow-500 ">
-                    پین
-                </button>
-                <button type="button"
-                    class="lg:px-8 lg:py-4 px-6 py-3 text-base lg:text-lg font-normal text-gray-900 bg-transparent border-t-2 border-b-2  border-gray-900 hover:bg-blue-700 hover:text-white focus:z-10 focus:ring-2  focus:ring-gray-500 dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-blue-700">
-                    موزیک
-                </button>
-                <button type="button"
-                    class="lg:px-8 lg:py-4 px-6 py-3 text-base lg:text-lg font-normal text-gray-900 bg-transparent border-2 border-gray-900 rounded-e-lg hover:bg-green-700 hover:text-white focus:z-10 focus:ring-2  focus:ring-gray-500 dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-green-700 ">
-                    گالری تصاویر
-                </button>
-            </div>
-            <hr class="w-48 h-1 mx-auto bg-gray-300 border-0 rounded md:my-10 dark:bg-gray-700">
-        </div>
-
-        <div class="max-w-screen-xl flex flex-col mx-auto p-4">
+        <!--featured-->
+        <div class="max-w-screen-xl flex flex-col mx-auto my-8">
             <h2
-                class="underline underline-offset-8 mb-12 mr-3 mt-4 text-xl font-extrabold  leading-none md:text-2xl font-vazir dark:text-white">
-                مطالب برجسته</h2>
+                class="mx-4 lg:mx-0 bg-white rounded-lg shadow  dark:bg-gray-800 p-4 text-center my-8 text-xl font-extrabold  leading-none md:text-2xl font-vazir dark:text-white">
+                مطالب برگزیده</h2>
 
-            <div class="grid mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
-                <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img class="rounded-t-lg bg-cover w-full" src="https://picsum.photos/1000/1000
-                    " />
-                    </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
-                                technology acquisitions 2021</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
-                            technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
-                        </a>
-                    </div>
+            <div class="grid mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8 gap-8">
+                <div class="relative w-72 flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
+                    <img src="https://picsum.photos/1000/1000" alt="University of Southern California"
+                        class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                    <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of love</div>
                 </div>
-                <div
-                    class="max-w-sm  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img class="rounded-t-lg bg-cover w-full" src="https://picsum.photos/1000/1000
-                    " />
-                    </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
-                                technology acquisitions 2021</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
-                            technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
-                        </a>
-                    </div>
+                <div class="relative w-72 flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
+                    <img src="https://picsum.photos/1000/1000" alt="University of Southern California"
+                        class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                    <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of love</div>
                 </div>
-                <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img class="rounded-t-lg bg-cover w-full" src="https://picsum.photos/1000/1000
-                    " />
-                    </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
-                                technology acquisitions 2021</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
-                            technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
-                        </a>
-                    </div>
+                <div class="relative  w-72 flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
+                    <img src="https://picsum.photos/1000/1000" alt="University of Southern California"
+                        class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                    <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of love</div>
                 </div>
-                <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img class="rounded-t-lg bg-cover w-full" src="https://picsum.photos/1000/1000
-                    " />
-                    </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
-                                technology acquisitions 2021</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
-                            technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
-                        </a>
-                    </div>
+                <div class="relative w-72 flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
+                    <img src="https://picsum.photos/1000/1000" alt="University of Southern California"
+                        class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                    <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of love</div>
                 </div>
+
 
             </div>
 
         </div>
+        <!--blog-->
+        <div class="max-w-screen-xl mx-4 lg:mx-auto flex flex-col">
+            <h2
+                class="bg-white rounded-lg shadow  dark:bg-gray-800  p-4 text-center my-8 text-xl font-extrabold  leading-none md:text-2xl font-vazir dark:text-white">
+                بلاگ</h2>
+            <div class="flex flex-row-reverse max-sm:flex-col-reverse gap-8 my-8">
+                <div class="basis-3/4 w-full flex">
+                    <a href="#"
+                        class="flex flex-col max-w-full items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <img class="object-cover w-full rounded-t-lg h-full md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                            src="https://picsum.photos/1000/1000" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                                technology acquisitions 2021</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                                technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        </div>
+                    </a>
+                </div>
 
+                <div class="font-vazir basis-1/4 flex flex-col items-center justify-stretch align-middle gap-4">
+                    <h2
+                        class="bg-white rounded-lg shadow w-full dark:bg-gray-800 p-4 text-center text-xl font-extrabold leading-none md:text-2xl font-vazir dark:text-white">
+                        دسته بندی مطالب</h2>
+                    <ul
+                        class="shadow w-full flex flex-col gap-4 text-sm text-center font-medium bg-gray-100 dark:bg-darkenblue text-gray-900 dark:text-white">
+                        <li
+                            class="w-full my-0 px-4 py-2 rounded-lg bg-white dark:bg-gray-800 hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700">
+                            Profile
+                        </li>
+                        <li
+                            class="w-full my-0 px-4 py-2 rounded-lg bg-white dark:bg-gray-800 hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700">
+                            Settings</li>
+                        <li
+                            class="w-full my-0 px-4 py-2 rounded-lg bg-white dark:bg-gray-800 hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700">
+                            Messages</li>
+                        <li
+                            class="w-full my-0 px-4 py-2 rounded-lg bg-white dark:bg-gray-800 hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700">
+                            Download</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </main>
 
 

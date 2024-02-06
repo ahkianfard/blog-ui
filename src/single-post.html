@@ -1,0 +1,331 @@
+<!doctype html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>امیرحسین کیان فرد</title>
+</head>
+
+<body class="bg-gray-100 font-iransans dark:bg-darkenblue">
+    <!--Navbar-->
+
+    <nav class="sticky top-0 z-30 m-4 transition-all bg-white rounded-lg shadow-md dark:bg-gray-800">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-2 px-4 mx-auto">
+            <a href="/src/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+
+                <span class="self-center text-2xl font-semibold font-vazir whitespace-nowrap dark:text-white">امیرحسین
+                    کیان
+                    فرد</span>
+            </a>
+            <button data-collapse-toggle="navbar-solid-bg" type="button" id="hamburger"
+                class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-solid-bg" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full transition-all md:block md:w-auto" id="navbar-solid-bg">
+                <ul
+                    class="flex flex-col items-center justify-center gap-4 mt-4 font-extrabold align-middle rounded-lg md:gap-2 lg:gap-0 max-sm:items-stretch font-vazir bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                    <li>
+                        <a href="index.html" class="nav-active" aria-current="page">خانه</a>
+                    </li>
+                    <li>
+                        <a href="tag-archive.html" class="nav-deactive">تگ ها</a>
+                    </li>
+                    <li>
+                        <a href="single-post.html" class="nav-deactive">قالب پست</a>
+                    </li>
+                    <li>
+                        <a href="blog-archive.html" class="nav-deactive">آرشیو بلاگ</a>
+                    </li>
+                    <button id="theme-toggle" type="button"
+                        class="self-center text-gray-300 hover:text-orange-500 dark:text-orange-500 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-gray-500 focus:outline-none rounded-lg text-sm p-2.5">
+                        <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                        </svg>
+                        <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--post content-->
+    <main class="pt-6 pb-16 antialiased lg:pt-16 lg:pb-24 ">
+        <div class="flex justify-between max-w-screen-xl px-4 mx-auto font-iransans ">
+            <article
+                class="w-full max-w-2xl mx-auto format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+                <header class="mb-4 lg:mb-6 not-format">
+                    <h1
+                        class="mb-4 text-2xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+                        طراحی دیجیتال که به شما در راه اندازی کسب و کار کمک می کند</h1>
+                    <figure><img src="https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-1.png"
+                            alt="">
+                        <figcaption>Digital art by Anonymous</figcaption>
+                    </figure>
+                </header>
+                <p class="lead">Flowbite is an open-source library of UI components built with the utility-first
+                    classes from Tailwind CSS. It also includes interactive elements such as dropdowns, modals,
+                    datepickers.</p>
+                <p>Before going digital, you might benefit from scribbling down some ideas in a sketchbook. This
+                    way,
+                    you can think things through before committing to an actual design project.</p>
+                <p>But then I found a <a href="https://flowbite.com">component library based on Tailwind CSS called
+                        Flowbite</a>. It comes with the most commonly used UI components, such as buttons,
+                    navigation
+                    bars, cards, form elements, and more which are conveniently built with the utility classes from
+                    Tailwind CSS.</p>
+
+                <h2>Getting started with Flowbite</h2>
+                <p>First of all you need to understand how Flowbite works. This library is not another framework.
+                    Rather, it is a set of components based on Tailwind CSS that you can just copy-paste from the
+                    documentation.</p>
+                <p>It also includes a JavaScript file that enables interactive components, such as modals,
+                    dropdowns,
+                    and datepickers which you can optionally include into your project via CDN or NPM.</p>
+                <p>You can check out the <a href="https://flowbite.com/docs/getting-started/quickstart/">quickstart
+                        guide</a> to explore the elements by including the CDN files into your project. But if you
+                    want
+                    to build a project with Flowbite I recommend you to follow the build tools steps so that you can
+                    purge and minify the generated CSS.</p>
+                <p>You'll also receive a lot of useful application UI, marketing UI, and e-commerce pages that can
+                    help
+                    you get started with your projects even faster. You can check out this <a
+                        href="https://flowbite.com/docs/components/tables/">comparison table</a> to better
+                    understand
+                    the differences between the open-source and pro version of Flowbite.</p>
+                <h2>When does design come in handy?</h2>
+                <p>While it might seem like extra work at a first glance, here are some key moments in which
+                    prototyping
+                    will come in handy:</p>
+
+                <h3>Laying the groundwork for best design</h3>
+                <p>Before going digital, you might benefit from scribbling down some ideas in a sketchbook. This
+                    way,
+                    you can think things through before committing to an actual design project.</p>
+                <p>Let's start by including the CSS file inside the <code>head</code> tag of your HTML.</p>
+                <h3>Understanding typography</h3>
+                <h4>Type properties</h4>
+                <p>A typeface is a collection of letters. While each letter is unique, certain shapes are shared
+                    across
+                    letters. A typeface represents shared patterns across a collection of letters.</p>
+                <h4>Baseline</h4>
+                <p>A typeface is a collection of letters. While each letter is unique, certain shapes are shared
+                    across
+                    letters. A typeface represents shared patterns across a collection of letters.</p>
+                <h4>Measurement from the baseline</h4>
+                <p>A typeface is a collection of letters. While each letter is unique, certain shapes are shared
+                    across
+                    letters. A typeface represents shared patterns across a collection of letters.</p>
+                <h3>Type classification</h3>
+                <h4>Serif</h4>
+                <p>A serif is a small shape or projection that appears at the beginning or end of a stroke on a
+                    letter.
+                    Typefaces with serifs are called serif typefaces. Serif fonts are classified as one of the
+                    following:</p>
+                <h4>Old-Style serifs</h4>
+                <ul>
+                    <li>Low contrast between thick and thin strokes</li>
+                    <li>Diagonal stress in the strokes</li>
+                    <li>Slanted serifs on lower-case ascenders</li>
+                </ul><img src="https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-2.png" alt="">
+                <ol>
+                    <li>Low contrast between thick and thin strokes</li>
+                    <li>Diagonal stress in the strokes</li>
+                    <li>Slanted serifs on lower-case ascenders</li>
+                </ol>
+                <h3>Laying the best for successful prototyping</h3>
+                <p>A serif is a small shape or projection that appears at the beginning:</p>
+                <blockquote>
+                    <p>Flowbite is just awesome. It contains tons of predesigned components and pages starting from
+                        login screen to complex dashboard. Perfect choice for your next SaaS application.</p>
+                </blockquote>
+                <h4>Code example</h4>
+                <p>A serif is a small shape or projection that appears at the beginning or end of a stroke on a
+                    letter.
+                    Typefaces with serifs are called serif typefaces. Serif fonts are classified as one of the
+                    following:</p>
+
+                <h4>Table example</h4>
+                <p>A serif is a small shape or projection that appears at the beginning or end of a stroke on a
+                    letter.
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Country</th>
+                            <th>Date &amp; Time</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>United States</td>
+                            <td>April 21, 2021</td>
+                            <td><strong>$2,300</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Canada</td>
+                            <td>May 31, 2021</td>
+                            <td><strong>$300</strong></td>
+                        </tr>
+                        <tr>
+                            <td>United Kingdom</td>
+                            <td>June 3, 2021</td>
+                            <td><strong>$2,500</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Australia</td>
+                            <td>June 23, 2021</td>
+                            <td><strong>$3,543</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Germany</td>
+                            <td>July 6, 2021</td>
+                            <td><strong>$99</strong></td>
+                        </tr>
+                        <tr>
+                            <td>France</td>
+                            <td>August 23, 2021</td>
+                            <td><strong>$2,540</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Best practices for setting up your prototype</h3>
+                <p><strong>Low fidelity or high fidelity?</strong> Fidelity refers to how close a prototype will be
+                    to
+                    the real deal. If you’re simply preparing a quick visual aid for a presentation, a low-fidelity
+                    prototype — like a wireframe with placeholder images and some basic text — would be more than
+                    enough. But if you’re going for more intricate usability testing, a high-fidelity prototype —
+                    with
+                    on-brand colors, fonts and imagery — could help get more pointed results.</p>
+                <p><strong>Consider your user</strong>. To create an intuitive user flow, try to think as your user
+                    would when interacting with your product. While you can fine-tune this during beta testing,
+                    considering your user’s needs and habits early on will save you time by setting you on the right
+                    path.</p>
+                <p><strong>Start from the inside out</strong>. A nice way to both organize your tasks and create
+                    more
+                    user-friendly prototypes is by building your prototypes ‘inside out’. Start by focusing on what
+                    will
+                    be important to your user, like a Buy now button or an image gallery, and list each element by
+                    order
+                    of priority. This way, you’ll be able to create a prototype that puts your users’ needs at the
+                    heart
+                    of your design.</p>
+                <p>And there you have it! Everything you need to design and share prototypes — right in Flowbite
+                    Figma.
+                </p>
+
+            </article>
+        </div>
+    </main>
+
+    <!--Related articles-->
+    <aside aria-label="Related articles" class="p-8 m-4 my-4 bg-white rounded-lg shadow dark:bg-gray-800">
+        <div class="max-w-screen-xl p-4 m-4 mx-auto">
+            <h2
+                class="py-2 mb-8 text-2xl font-bold text-orange-600 bg-white dark:bg-gray-800 font-vazir dark:text-orange-500">
+                مطالب مرتبط</h2>
+            <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
+                <article class="flex flex-col items-center text-center align-middle">
+                    <a href="#">
+                        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png"
+                            class="rounded-lg size-full">
+                    </a>
+                    <h2 class="mt-6 mb-2 text-xl font-bold text-gray-900 dark:text-white">
+                        <a href="#">Our first office</a>
+                    </h2>
+                    <p class="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many
+                        changes! After months of preparation.</p>
+                </article>
+                <article class="flex flex-col items-center text-center align-middle">
+                    <a href="#">
+                        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png"
+                            class="rounded-lg size-full">
+                    </a>
+                    <h2 class="mt-6 mb-2 text-xl font-bold text-gray-900 dark:text-white">
+                        <a href="#">Our first office</a>
+                    </h2>
+                    <p class="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many
+                        changes! After months of preparation.</p>
+                </article>
+                <article class="flex flex-col items-center text-center align-middle">
+                    <a href="#">
+                        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png"
+                            class="rounded-lg size-full">
+                    </a>
+                    <h2 class="mt-6 mb-2 text-xl font-bold text-gray-900 dark:text-white">
+                        <a href="#">Our first office</a>
+                    </h2>
+                    <p class="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many
+                        changes! After months of preparation.</p>
+                </article>
+                <article class="flex flex-col items-center text-center align-middle">
+                    <a href="#">
+                        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png"
+                            class="rounded-lg size-full">
+                    </a>
+                    <h2 class="mt-6 mb-2 text-xl font-bold text-gray-900 dark:text-white">
+                        <a href="#">Our first office</a>
+                    </h2>
+                    <p class="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many
+                        changes! After months of preparation.</p>
+                </article>
+            </div>
+        </div>
+    </aside>
+
+    <!--footer-->
+    <footer class="m-4 my-8 bg-white rounded-lg shadow dark:bg-gray-800">
+        <div class="w-full max-w-screen-xl p-4 mx-auto md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-500 font-vazir sm:text-center dark:text-gray-400">
+                <p>
+                    ساخته شده با عشق❤️ توسط
+                    <a class="font-extrabold text-orange-600 copyright dark:text-orange-400" href="/"
+                        target="_blank">امیرحسین کیان
+                        فرد</a>
+                </p>
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--go top btn-->
+    <button id="to-top-button" onclick="goToTop()"
+        class="fixed z-50 hidden p-4 text-lg font-semibold text-white transition-colors duration-300 bg-orange-500 border-0 rounded-full shadow-md bottom-8 left-4 w-14 h-14 hover:bg-orange-600 dark:bg-orange-500 dark:hover:bg-orange-400">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path d="M12 4l8 8h-6v8h-4v-8H4l8-8z" />
+        </svg>
+        <span class="sr-only">Go to top</span>
+    </button>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
